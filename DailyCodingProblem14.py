@@ -1,3 +1,12 @@
+# Good morning! Here's your coding interview problem for today.
+
+# This problem was asked by Google.
+
+# The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
+
+# Hint: The basic equation of a circle is x2 + y2 = r2.
+
+
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import numpy as np
@@ -10,9 +19,9 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.xticks([])
 plt.yticks([])
 
-ax.set_title("Estimating Pi with Monte Carlo")
+ax.set_title("Estimating Pi with Monte Carlo Method")
 
-# Draw the circle
+# Draw the circle with origin at center and radius 1
 circle = plt.Circle((0, 0), 1, fill=False, edgecolor='black')
 ax.add_artist(circle)
 
@@ -59,6 +68,6 @@ def animate(i):
     ax.annotate("Inside", xy=(0.05, 0.9), xycoords='axes fraction', fontsize=14)
     ax.annotate("Outside", xy=(0.85, 0.9), xycoords='axes fraction', fontsize=14)
     
-ani = FuncAnimation(fig, animate, frames=100, interval=500, repeat=False)
+ani = FuncAnimation(fig, animate, frames=100, interval=100, repeat=False)
 plt.show()
 
