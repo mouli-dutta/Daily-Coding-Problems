@@ -29,7 +29,7 @@ def word_break(s, word_dict):
     backtrack(0, [])
     return result[0] if result else None
 
-# Example usage
+# test cases
 word_dict1 = {'quick', 'brown', 'the', 'fox'}
 s1 = 'thequickbrownfox'
 print(word_break(s1, word_dict1))
