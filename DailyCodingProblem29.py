@@ -13,5 +13,5 @@ def run_length_encoding(str):
 
 
 str = "AAAABBBCCDAA"
-print(run_length_encoding(str), end='')
+print(run_length_encoding(str))
 
