@@ -20,3 +20,5 @@
 - [Day 23](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem23.py)
 - [Day 26](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem26.py)
 - [Day 27](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem27.py)
+- [Day 28](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem28.py)
+- [Day 29](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem29.py)
