@@ -20,16 +20,10 @@ def make_palindrome(s):
         palindrome1 = s[0] + make_palindrome(s[1:]) + s[0]
         # recursively insert character at end
         palindrome2 = s[-1] + make_palindrome(s[:-1]) + s[-1]
-
-        # return the shortest 
-        if len(palindrome1) < len(palindrome2):
-            return palindrome1
-        elif len(palindrome2) < len(palindrome1):
-            return palindrome2
         
-        # or lexicographically earliest 
-        else:
-            return min(palindrome1, palindrome2)
+        # return the shortest or lexicographically earliest
+        # oneliner, cause python!!!
+        return min([palindrome1, palindrome2], key= lambda str : (len(str), str))
 
 
 tests = ["race", "google", "car", "abab", "aaaaa"]
