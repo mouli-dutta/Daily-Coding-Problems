@@ -1,6 +1,6 @@
 # Daily-Coding-Problems
 
-## 📝 Contents
+## 📝 Table of Contents
 
 - [Day 1](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem1.py)
 - [Day 2](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem2.py)
