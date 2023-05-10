@@ -29,4 +29,8 @@
 - [Day 36](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem36.py)
 - [Day 37](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem37.py)
 - [Day 40](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem40.py)
+- [Day 41](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem41.py)
+- [Day 42](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem42.py)
+- [Day 43](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem43.py)
+- [Day 44](https://github.com/mouli-dutta/Daily-Coding-Problems/blob/main/DailyCodingProblem44.py)
 
